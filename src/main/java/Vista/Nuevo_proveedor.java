@@ -147,6 +147,8 @@ public class Nuevo_proveedor extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(153, 0, 153));
+
         jLabnuevoproveedor.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jLabnuevoproveedor.setText("Nuevo Proveedor");
 
@@ -162,12 +164,14 @@ public class Nuevo_proveedor extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jLabel2.setText("Tipo de Documento");
 
+        jComtipodedocumento.setBackground(new java.awt.Color(204, 204, 0));
         jComtipodedocumento.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jComtipodedocumento.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione su Documento", "Cedula", "Tarjeta de Identidad", "Registro Civil" }));
 
         Sexo.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         Sexo.setText("Sexo");
 
+        jCombsexo.setBackground(new java.awt.Color(204, 204, 0));
         jCombsexo.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jCombsexo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione su Sexo", "Masculino", "Femenino", "Otro" }));
 
@@ -177,9 +181,11 @@ public class Nuevo_proveedor extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jLabel3.setText("Fecha de Nacimiento");
 
+        botcancelar.setBackground(new java.awt.Color(0, 51, 51));
         botcancelar.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         botcancelar.setText("Cancelar");
 
+        botguardar.setBackground(new java.awt.Color(0, 51, 51));
         botguardar.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         botguardar.setText("Guardar");
 
@@ -211,7 +217,7 @@ public class Nuevo_proveedor extends javax.swing.JFrame {
                             .addComponent(jComtipodedocumento, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jTextdireccion)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(0, 26, Short.MAX_VALUE)
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jDateChfehanaci, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE))

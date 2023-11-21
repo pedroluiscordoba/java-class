@@ -84,28 +84,28 @@ public class Nuevafactura extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(153, 51, 0));
+
         Lanuevafactura.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         Lanuevafactura.setText("Nueva Factura");
 
         jLatipodepago.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
-        jLatipodepago.setForeground(new java.awt.Color(51, 0, 255));
         jLatipodepago.setText("Tipo De Pago");
 
+        jCombtipodepago.setBackground(new java.awt.Color(0, 255, 51));
         jCombtipodepago.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jCombtipodepago.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione", "Tarjeta de Credito", "Efectivo", " ", " " }));
 
         jLaIidenproveedor.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
-        jLaIidenproveedor.setForeground(new java.awt.Color(51, 0, 204));
         jLaIidenproveedor.setText("Identificacion Proveedor");
 
         jLaidenusuario.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
-        jLaidenusuario.setForeground(new java.awt.Color(102, 0, 255));
         jLaidenusuario.setText("Identificacion Usuario");
 
         jLadescuento.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
-        jLadescuento.setForeground(new java.awt.Color(102, 0, 255));
         jLadescuento.setText("Descuento");
 
+        jButoGuardar.setBackground(new java.awt.Color(0, 255, 51));
         jButoGuardar.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jButoGuardar.setText("Guardar");
 

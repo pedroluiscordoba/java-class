@@ -160,6 +160,9 @@ public class Nuevo_Cliente extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jpanelcliente.setBackground(new java.awt.Color(255, 255, 51));
+
+        Nuevo_Cliente.setBackground(new java.awt.Color(0, 153, 51));
         Nuevo_Cliente.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         Nuevo_Cliente.setText("Nuevo CLiente");
 
@@ -191,9 +194,11 @@ public class Nuevo_Cliente extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(0, 0, 204));
         jLabel2.setText("Fecha de Ncimiento");
 
+        btnCancelar.setBackground(new java.awt.Color(255, 51, 51));
         btnCancelar.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         btnCancelar.setText("Cancelar");
 
+        btnGuardar.setBackground(new java.awt.Color(255, 51, 51));
         btnGuardar.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         btnGuardar.setText("Guardar");
 
@@ -201,6 +206,7 @@ public class Nuevo_Cliente extends javax.swing.JFrame {
         jLabtipodocumento.setForeground(new java.awt.Color(102, 0, 255));
         jLabtipodocumento.setText("Tipo de Documento");
 
+        jComtipodocumen.setBackground(new java.awt.Color(0, 255, 102));
         jComtipodocumen.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jComtipodocumen.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione", "Cedula", "Targeta de Identidad", "Pasaporte" }));
 

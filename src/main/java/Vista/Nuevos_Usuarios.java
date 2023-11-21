@@ -297,6 +297,9 @@ public class Nuevos_Usuarios extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jpNuevoUsuario.setBackground(new java.awt.Color(0, 102, 51));
+        jpNuevoUsuario.setForeground(new java.awt.Color(51, 0, 204));
+
         lblNuevoUsuario.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
         lblNuevoUsuario.setText("Nuevo Usuario");
 
@@ -304,6 +307,7 @@ public class Nuevos_Usuarios extends javax.swing.JFrame {
         lbltipoDocumento.setForeground(new java.awt.Color(51, 102, 255));
         lbltipoDocumento.setText("Tipo de Documento");
 
+        jcomtipodocu.setBackground(new java.awt.Color(153, 0, 153));
         jcomtipodocu.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jcomtipodocu.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione...", "Cedula", "Cedula extranjeria ", "Pasaporte" }));
         jcomtipodocu.setToolTipText("tipodocumento");
@@ -365,9 +369,11 @@ public class Nuevos_Usuarios extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(51, 102, 255));
         jLabel4.setText("Fecha de nacimiento");
 
+        jbotguardar.setBackground(new java.awt.Color(102, 102, 0));
         jbotguardar.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jbotguardar.setText("Guardar");
 
+        jbotocancelar.setBackground(new java.awt.Color(102, 102, 0));
         jbotocancelar.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jbotocancelar.setText("Cancerlar");
 
@@ -377,6 +383,7 @@ public class Nuevos_Usuarios extends javax.swing.JFrame {
         jLaCargo.setForeground(new java.awt.Color(51, 102, 255));
         jLaCargo.setText("Cargo");
 
+        jCombcargo.setBackground(new java.awt.Color(102, 0, 102));
         jCombcargo.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         jCombcargo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione su cargo", "Administrador", "Cliente", "Usuario" }));
         jCombcargo.setToolTipText("cargo");
@@ -388,8 +395,9 @@ public class Nuevos_Usuarios extends javax.swing.JFrame {
             }
         });
 
+        jLalogin.setBackground(new java.awt.Color(102, 0, 204));
         jLalogin.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
-        jLalogin.setForeground(new java.awt.Color(102, 0, 255));
+        jLalogin.setForeground(new java.awt.Color(0, 0, 204));
         jLalogin.setText("Login");
 
         javax.swing.GroupLayout jpNuevoUsuarioLayout = new javax.swing.GroupLayout(jpNuevoUsuario);
@@ -403,11 +411,10 @@ public class Nuevos_Usuarios extends javax.swing.JFrame {
                         .addComponent(lblNuevoUsuario)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jpNuevoUsuarioLayout.createSequentialGroup()
-                        .addGroup(jpNuevoUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jpNuevoUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jpNuevoUsuarioLayout.createSequentialGroup()
                                 .addContainerGap()
                                 .addComponent(jbotguardar, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLaCargo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jpNuevoUsuarioLayout.createSequentialGroup()
                                 .addContainerGap()
                                 .addComponent(lbldocumento, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -422,7 +429,10 @@ public class Nuevos_Usuarios extends javax.swing.JFrame {
                                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(lbltipoDocumento, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(lblsexo)
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpNuevoUsuarioLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jLaCargo, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(jpNuevoUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jpNuevoUsuarioLayout.createSequentialGroup()
                                 .addGap(18, 18, 18)
@@ -494,9 +504,9 @@ public class Nuevos_Usuarios extends javax.swing.JFrame {
                     .addComponent(botnmostrarclave))
                 .addGap(18, 18, 18)
                 .addGroup(jpNuevoUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLalogin)
+                    .addComponent(jLalogin, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtlogin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
                 .addGroup(jpNuevoUsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLaCargo)
                     .addComponent(jCombcargo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))

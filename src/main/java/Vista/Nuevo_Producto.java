@@ -113,6 +113,8 @@ public class Nuevo_Producto extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(255, 102, 0));
+
         jLabelnuevoproducto.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jLabelnuevoproducto.setText("Nuevo Producto");
 
@@ -133,6 +135,8 @@ public class Nuevo_Producto extends javax.swing.JFrame {
         jbtnGuardar.setForeground(new java.awt.Color(0, 0, 204));
         jbtnGuardar.setText("Guardar");
 
+        btnbuscarimagen.setBackground(new java.awt.Color(204, 255, 255));
+        btnbuscarimagen.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         btnbuscarimagen.setText("Buscar imagen");
 
         txtdescriprocdu.setColumns(20);

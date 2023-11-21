@@ -109,16 +109,19 @@ public class Iniciar_sesion extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextPane2);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 102, 0));
 
         jLabiniciarsesion.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
         jLabiniciarsesion.setText("Iniciar Seccion");
 
+        labUsuario.setBackground(new java.awt.Color(51, 0, 153));
         labUsuario.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         labUsuario.setText("Usuario");
 
         lblcontraseña.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         lblcontraseña.setText("Contraseña");
 
+        botIniciarseccion.setBackground(new java.awt.Color(102, 0, 102));
         botIniciarseccion.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         botIniciarseccion.setText(" Iniciar Seccion");
 
